@@ -1,0 +1,17 @@
+<?php
+
+namespace App\Models;
+
+use Illuminate\Database\Eloquent\Model;
+use Illuminate\Database\Eloquent\Factories\HasFactory;
+
+class Listapendientes extends Model
+{
+    //
+    use HasFactory;
+
+    protected $fillable = ['user_id','anime_id', 'titulo', 'imagen'];
+    public function user(){
+        return $this->belongsTo('App\Models\User');
+    }  
+}

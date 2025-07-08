@@ -1,0 +1,16 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+
+/* importo mi css */
+@import './styles.css';
+
+/* Keep existing @source directives for Laravel compatibility */
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+@source '../**/*.blade.php';
+@source '../**/*.js';
+
+/* Keep custom font theme */
+@theme {
+    --font-sans: 'Instrument Sans', ui-sans-serif, system-ui, sans-serif, 'Apple Color Emoji', 'Segoe UI Emoji',
+        'Segoe UI Symbol', 'Noto Color Emoji';
+}
