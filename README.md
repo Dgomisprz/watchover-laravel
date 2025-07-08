@@ -44,9 +44,9 @@ Sigue estos pasos para ejecutar la aplicación localmente en tu máquina:
      ```bash
      npm install
      ```
-5. **Inicia el servidor de desarrollo**:
+5. **Inicia el proyecto**:
    ```bash
-   npm run dev
+   npm run build
    ```
 6. **Abre tu navegador y visita** `http://localhost/nombre-del-repositorio` *(ajusta la URL según el nombre de tu carpeta).*
 
@@ -97,8 +97,8 @@ Follow these steps to run the application locally on your machine:
      ```bash
      npm install
      ```
-5. **Start the development server**:
+5. **Start the project**:
    ```bash
-   npm run dev
+   npm run build
    ```
 6. **Open your browser and visit** `http://localhost/repository-name` *(adjust the URL based on your folder name).*
