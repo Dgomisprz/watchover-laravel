@@ -1,61 +1,104 @@
-<p align="center"><a href="https://laravel.com" target="_blank"><img src="https://raw.githubusercontent.com/laravel/art/master/logo-lockup/5%20SVG/2%20CMYK/1%20Full%20Color/laravel-logolockup-cmyk-red.svg" width="400" alt="Laravel Logo"></a></p>
+# Anime Search Web 🐱‍👤
 
-<p align="center">
-<a href="https://github.com/laravel/framework/actions"><img src="https://github.com/laravel/framework/workflows/tests/badge.svg" alt="Build Status"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/dt/laravel/framework" alt="Total Downloads"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/v/laravel/framework" alt="Latest Stable Version"></a>
-<a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
-</p>
+¡Bienvenido/a al repositorio de mi **Proyecto Final de Grado**! Esta es una aplicación web diseñada para los amantes del anime, donde puedes buscar animes, registrarte, crear listas personalizadas y seguir a otros usuarios para explorar sus colecciones. Desarrollada con un enfoque en el **FrontEnd**, esta plataforma combina funcionalidad y un diseño intuitivo. 🎌
 
-## About Laravel
+## 📖 Descripción del Proyecto
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+**Anime Search Web** es una aplicación web interactiva que permite a los usuarios:
+- 🔍 **Buscar animes**: Encuentra tus animes favoritos mediante una búsqueda rápida y filtrada.
+- 📝 **Registrarte y crear listas**: Crea una cuenta para organizar tus animes en listas personalizadas.
+- 👥 **Seguir a otros usuarios**: Descubre las listas de animes de otros usuarios y sigue a tus favoritos.
+- 🌐 **Diseño responsivo**: Disfruta de una experiencia fluida en cualquier dispositivo.
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+La aplicación está diseñada con tecnologías modernas de FrontEnd, ofreciendo una experiencia de usuario dinámica y visualmente atractiva.
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+## 🚀 Cómo Lanzar el Proyecto
 
-## Learning Laravel
+Sigue estos pasos para ejecutar la aplicación localmente en tu máquina:
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+### Prerrequisitos
+- **XAMPP**: Descarga e instala [XAMPP](https://www.apachefriends.org/es/index.html) para gestionar el servidor Apache y MySQL.
+- **Composer**: Instala [Composer](https://getcomposer.org/) para gestionar dependencias de PHP.
+- **Node.js**: Asegúrate de tener [Node.js](https://nodejs.org/) instalado para gestionar dependencias de JavaScript.
+- **Git**: Necesario para clonar el repositorio.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+### Instrucciones de Instalación
+1. **Clona el repositorio**:
+   ```bash
+   git clone https://github.com/tuUsuario/nombre-del-repositorio.git
+   ```
+2. **Uso de XAMPP**:
+   - Abre XAMPP y activa los servidores **Apache** y **MySQL** desde el panel de control.
+   - Coloca la carpeta del proyecto dentro del directorio `htdocs` de XAMPP.
+3. **Instala las dependencias de PHP**:
+   - Navega al directorio del proyecto en la terminal:
+     ```bash
+     cd ruta/al/proyecto
+     ```
+   - Ejecuta:
+     ```bash
+     composer install
+     ```
+4. **Instala las dependencias de JavaScript**:
+   - En la misma terminal, ejecuta:
+     ```bash
+     npm install
+     ```
+5. **Inicia el servidor de desarrollo**:
+   ```bash
+   npm run dev
+   ```
+6. **Abre tu navegador y visita** `http://localhost/nombre-del-repositorio` *(ajusta la URL según el nombre de tu carpeta).*
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains thousands of video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
 
-## Laravel Sponsors
+# Anime Search Web 🐱‍👤
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the [Laravel Partners program](https://partners.laravel.com).
+Welcome to the repository of my **Final Degree Project**! This is a web application designed for anime lovers, where you can search for anime, register, create personalized lists, and follow other users to explore their collections. Developed with a **FrontEnd-first** approach, this platform combines functionality with an intuitive design. 🎌
 
-### Premium Partners
+## 📖 Project Description
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[DevSquad](https://devsquad.com/hire-laravel-developers)**
-- **[Redberry](https://redberry.international/laravel-development/)**
-- **[Active Logic](https://activelogic.com)**
+**Anime Search Web** is an interactive web application that allows users to:
+- 🔍 **Search for anime**: Find your favorite anime through quick and filtered searches.
+- 📝 **Register and create lists**: Create an account to organize your anime into custom lists.
+- 👥 **Follow other users**: Discover other users' anime lists and follow your favorites.
+- 🌐 **Responsive design**: Enjoy a smooth experience on any device.
 
-## Contributing
+The application is built using modern FrontEnd technologies, offering a dynamic and visually appealing user experience.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## 🚀 How to Launch the Project
 
-## Code of Conduct
+Follow these steps to run the application locally on your machine:
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+### Prerequisites
+- **XAMPP**: Download and install [XAMPP](https://www.apachefriends.org/index.html) to manage the Apache and MySQL server.
+- **Composer**: Install [Composer](https://getcomposer.org/) to manage PHP dependencies.
+- **Node.js**: Make sure you have [Node.js](https://nodejs.org/) installed to manage JavaScript dependencies.
+- **Git**: Required to clone the repository.
 
-## Security Vulnerabilities
-
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
-
-## License
-
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
+### Installation Instructions
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/yourUsername/repository-name.git
+   ```
+2. **Using XAMPP**:
+   - Open XAMPP and activate the **Apache** and **MySQL** servers from the control panel.
+   - Place the project folder inside the `htdocs` directory of XAMPP.
+3. **Install PHP dependencies**:
+   - Navigate to the project directory in the terminal:
+     ```bash
+     cd path/to/project
+     ```
+   - Run:
+     ```bash
+     composer install
+     ```
+4. **Install JavaScript dependencies**:
+   - In the same terminal, run:
+     ```bash
+     npm install
+     ```
+5. **Start the development server**:
+   ```bash
+   npm run dev
+   ```
+6. **Open your browser and visit** `http://localhost/repository-name` *(adjust the URL based on your folder name).*
