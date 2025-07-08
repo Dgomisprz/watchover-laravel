@@ -31,16 +31,16 @@ Sigue estos pasos para ejecutar la aplicación localmente en tu máquina:
    - Abre XAMPP y activa los servidores **Apache** y **MySQL** desde el panel de control.
    - Coloca la carpeta del proyecto dentro del directorio `htdocs` de XAMPP.
 3. **Instala las dependencias de PHP**:
-   - Navega al directorio del proyecto en la terminal:
+   Navega al directorio del proyecto en la terminal:
      ```bash
      cd ruta/al/proyecto
      ```
-   - Ejecuta:
+   Ejecuta:
      ```bash
      composer install
      ```
 4. **Instala las dependencias de JavaScript**:
-   - En la misma terminal, ejecuta:
+   En la misma terminal, ejecuta:
      ```bash
      npm install
      ```
@@ -81,19 +81,19 @@ Follow these steps to run the application locally on your machine:
    git clone https://github.com/yourUsername/repository-name.git
    ```
 2. **Using XAMPP**:
-   - Open XAMPP and activate the **Apache** and **MySQL** servers from the control panel.
-   - Place the project folder inside the `htdocs` directory of XAMPP.
+   Open XAMPP and activate the **Apache** and **MySQL** servers from the control panel.
+   Place the project folder inside the `htdocs` directory of XAMPP.
 3. **Install PHP dependencies**:
-   - Navigate to the project directory in the terminal:
+   Navigate to the project directory in the terminal:
      ```bash
      cd path/to/project
      ```
-   - Run:
+   Run:
      ```bash
      composer install
      ```
 4. **Install JavaScript dependencies**:
-   - In the same terminal, run:
+   In the same terminal, run:
      ```bash
      npm install
      ```
